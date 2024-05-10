@@ -49,7 +49,7 @@ if user_input.lower() == "yes":
             # Otherwise, it's a file, perform checks
                 check_file(item_path)
 
-    directory_paths = [r"C:\Notepad++\Batch", r"C:\Images"]
+    directory_paths = [r"{your_directory_path}"]
 
 # Iterate over each directory path
     for directory_path in directory_paths:
